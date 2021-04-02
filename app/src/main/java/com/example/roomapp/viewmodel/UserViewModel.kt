@@ -13,7 +13,8 @@ import kotlinx.coroutines.launch
 class UserViewModel(application: Application): AndroidViewModel(application) {
 
     val readAllData: LiveData<List<User>>
-    private val repository: UserRepository
+    private val repository: UserRepository // присваеваем ссылку для класса репозистория к переменной
+
 
     init {
         val userDao = UserDatabase.getDatabase(

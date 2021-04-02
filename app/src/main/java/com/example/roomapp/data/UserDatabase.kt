@@ -21,7 +21,7 @@ abstract class UserDatabase : RoomDatabase() {
                 return tempInstance
             }
             synchronized(this){
-                val instance = Room.databaseBuilder(
+                val instance = Room.databaseBuilder(// onOpen
                     context.applicationContext,
                     UserDatabase::class.java,
                     "user_database"
