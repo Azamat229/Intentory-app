@@ -1,13 +1,10 @@
-package com.example.roomapp.fragments.add
+package com.example.roomapp.view.add
 
 import android.content.Intent
-import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
-import android.provider.MediaStore
 import android.text.Editable
 import android.text.TextUtils
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,11 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.roomapp.R
 import com.example.roomapp.model.User
-import com.example.roomapp.viewmodel.UserViewModel
+import com.example.roomapp.presenter.UserViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
-import java.io.File
-import java.io.IOException
 
 class AddFragment : Fragment() {
 

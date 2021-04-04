@@ -1,4 +1,4 @@
-package com.example.roomapp.fragments.list
+package com.example.roomapp.view.list
 
 import android.app.AlertDialog
 import android.os.Bundle
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.roomapp.R
-import com.example.roomapp.viewmodel.UserViewModel
+import com.example.roomapp.presenter.UserViewModel
 import kotlinx.android.synthetic.main.fragment_list.view.*
 
 class ListFragment : Fragment() {

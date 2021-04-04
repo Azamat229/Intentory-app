@@ -1,4 +1,4 @@
-package com.example.roomapp.fragments.list
+package com.example.roomapp.view.list
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.roomapp.R
 import com.example.roomapp.model.User
+import com.example.roomapp.view.list.ListFragmentDirections
 import kotlinx.android.synthetic.main.custom_row.view.*
 
 class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {

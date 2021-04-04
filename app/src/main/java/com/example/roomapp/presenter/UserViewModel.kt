@@ -1,4 +1,4 @@
-package com.example.roomapp.viewmodel
+package com.example.roomapp.presenter
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
